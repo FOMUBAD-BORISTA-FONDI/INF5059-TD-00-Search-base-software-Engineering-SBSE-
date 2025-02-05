@@ -39,14 +39,16 @@ class Graph {
 }
 
 // Example test case
-const g = new Graph();
-g.addEdge(1, 2);
-g.addEdge(1, 3);
-g.addEdge(2, 4);
-g.addEdge(3, 5);
+// const g = new Graph();
+// g.addEdge(1, 2);
+// g.addEdge(1, 3);
+// g.addEdge(2, 4);
+// g.addEdge(3, 5);
 
-console.log("BFS Traversal:", g.bfs(1));
-console.log("DFS Traversal:", g.dfs(1));
+// console.log("BFS Traversal:", g.bfs(1));
+// console.log("DFS Traversal:", g.dfs(1));
+
+module.exports = Graph;
 
 // class Graph {
 //   constructor() {

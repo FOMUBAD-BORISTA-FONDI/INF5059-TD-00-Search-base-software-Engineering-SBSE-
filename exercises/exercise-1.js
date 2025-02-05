@@ -11,11 +11,7 @@ function binarySearch(arr, target) {
   return -1;
 }
 
-// Example test case
-const arr = [1, 3, 5, 7, 9, 11];
-const target = 5;
-
-console.log("Binary Search Output:", binarySearch(arr, target));
+module.exports = binarySearch;
 
 // function binarySearch(arr, target) {
 //   let left = 0,
@@ -30,4 +26,8 @@ console.log("Binary Search Output:", binarySearch(arr, target));
 //   return -1;
 // }
 
-// module.exports = binarySearch;
+// // Example test case
+// const arr = [1, 3, 5, 7, 9, 11];
+// const target = 5;
+
+// console.log("Binary Search Output:", binarySearch(arr, target));

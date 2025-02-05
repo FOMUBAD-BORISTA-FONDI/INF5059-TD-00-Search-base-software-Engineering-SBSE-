@@ -11,8 +11,8 @@ function maxSubarraySum(arr) {
 }
 
 // Example test case
-const arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
-console.log("Maximum Subarray Sum:", maxSubarraySum(arr));
+// const arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+// console.log("Maximum Subarray Sum:", maxSubarraySum(arr));
 
 // function maxSubarraySum(arr) {
 //   let maxSum = -Infinity,
@@ -26,4 +26,4 @@ console.log("Maximum Subarray Sum:", maxSubarraySum(arr));
 //   return maxSum;
 // }
 
-// module.exports = maxSubarraySum;
+module.exports = maxSubarraySum;

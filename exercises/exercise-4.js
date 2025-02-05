@@ -21,13 +21,13 @@ function mergeIntervals(intervals) {
 }
 
 // Example test case
-const intervals = [
-  [1, 3],
-  [2, 6],
-  [8, 10],
-  [15, 18],
-];
-console.log("Merged Intervals:", mergeIntervals(intervals));
+// const intervals = [
+//   [1, 3],
+//   [2, 6],
+//   [8, 10],
+//   [15, 18],
+// ];
+// console.log("Merged Intervals:", mergeIntervals(intervals));
 
 // function mergeIntervals(intervals) {
 //   if (!intervals.length) return [];
@@ -49,4 +49,4 @@ console.log("Merged Intervals:", mergeIntervals(intervals));
 //   return merged;
 // }
 
-// module.exports = mergeIntervals;
+module.exports = mergeIntervals;
