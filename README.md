@@ -21,6 +21,11 @@ This project contains **JavaScript implementations** of fundamental algorithms g
 
 ```sh
 git clone https://github.com/FOMUBAD-BORISTA-FONDI/INF5059-TD-00-Search-base-software-Engineering-SBSE-.git
+```
+
+2. Run the following command to **change the project directory**:
+
+```sh
 cd INF5059-TD-00-Search-base-software-Engineering-SBSE-
 ```
 
