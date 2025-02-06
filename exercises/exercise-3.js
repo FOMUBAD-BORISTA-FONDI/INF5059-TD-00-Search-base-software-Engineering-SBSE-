@@ -17,6 +17,8 @@ function knapsack(values, weights, W) {
   return dp[n][W];
 }
 
+module.exports = knapsack;
+
 // // Example test case
 // const values = [60, 100, 120];
 // const weights = [10, 20, 30];
@@ -43,4 +45,4 @@ function knapsack(values, weights, W) {
 //   return dp[n][W];
 // }
 
-module.exports = knapsack;
+// module.exports = knapsack;

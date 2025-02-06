@@ -38,6 +38,8 @@ class Graph {
   }
 }
 
+module.exports = Graph;
+
 // Example test case
 // const g = new Graph();
 // g.addEdge(1, 2);
@@ -48,7 +50,7 @@ class Graph {
 // console.log("BFS Traversal:", g.bfs(1));
 // console.log("DFS Traversal:", g.dfs(1));
 
-module.exports = Graph;
+// module.exports = Graph;
 
 // class Graph {
 //   constructor() {

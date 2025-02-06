@@ -1,7 +1,6 @@
 function mergeIntervals(intervals) {
   if (!intervals.length) return [];
 
-  // Sort intervals by start time
   intervals.sort((a, b) => a[0] - b[0]);
   let merged = [intervals[0]];
 
@@ -10,7 +9,6 @@ function mergeIntervals(intervals) {
     let curr = intervals[i];
 
     if (curr[0] <= prev[1]) {
-      // Overlapping intervals
       prev[1] = Math.max(prev[1], curr[1]); // Merge them
     } else {
       merged.push(curr);
@@ -19,6 +17,8 @@ function mergeIntervals(intervals) {
 
   return merged;
 }
+
+module.exports = mergeIntervals;
 
 // Example test case
 // const intervals = [
@@ -49,4 +49,4 @@ function mergeIntervals(intervals) {
 //   return merged;
 // }
 
-module.exports = mergeIntervals;
+// module.exports = mergeIntervals;
